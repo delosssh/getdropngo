@@ -31,6 +31,8 @@ import { AddLoanPaymentDialogComponent } from './add-loan-payment/add-loan-payme
 import { AddNewLoanComponent } from './add-new-loan/add-new-loan.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
+import { AddNewLoanComponent1 } from './add-new-loan.1/add-new-loan.component';
+import { HomeComponent1 } from './home.1/home.component';
 
 import { BrowserModule } from '@angular/platform-browser';
 // import { MdButtonModule, MdCardModule, MdMenuModule, MdToolbarModule, MdIconModule, MdInputModule, MdSelectModule, MdDialogModule, MdTableModule } from '@angular/material';
@@ -61,7 +63,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AddLoanPaymentDialogComponent,
     AddNewLoanComponent,
     NavbarComponent,
-    HomeComponent
+    HomeComponent,
+    AddNewLoanComponent1,
+    HomeComponent1
   ],
   entryComponents: [
     AddLoanPaymentDialogComponent,
