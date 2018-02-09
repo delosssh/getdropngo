@@ -14,7 +14,8 @@
     "testbe": "tsc -p server && node_modules/.bin/mocha dist/server/test",
     "lint": "ng lint",
     "lintbe": "tslint server/**/**.ts{,x}",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "postinstall": "ng build -prod -aot"
   },
   "private": true,
   "dependencies": {
