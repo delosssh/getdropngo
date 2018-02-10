@@ -14,17 +14,17 @@ export class PortfolioCarouselComponent implements OnInit {
     photo: 'assets/images/sq-10.jpg',
     text: `Adipisci quas repellat sed. Quasi quaerat aut nam possimus 
     vitae dignissimos, sapiente est atque tenetur`,
-    title: 'Project One',
+    title: 'Business Loan',
   }, {
     photo: 'assets/images/sq-11.jpg',
     text: `Adipisci quas repellat sed. Quasi quaerat aut nam possimus 
     vitae dignissimos, sapiente est atque tenetur`,
-    title: 'Project Two',
+    title: 'Salary Loan',
   }, {
     photo: 'assets/images/sq-12.jpg',
     text: `Adipisci quas repellat sed. Quasi quaerat aut nam possimus 
     vitae dignissimos, sapiente est atque tenetur`,
-    title: 'Project Three',
+    title: 'Other Loan',
   }, {
     photo: 'assets/images/sq-13.jpg',
     text: `Adipisci quas repellat sed. Quasi quaerat aut nam possimus 
