@@ -12,7 +12,10 @@ import {
   MatInputModule,
   MatRippleModule,
   MatSlideToggleModule,
-  MatSnackBarModule
+  MatSnackBarModule,
+  MatDatepickerModule,
+  MatNativeDateModule,
+  MatSelectModule
  } from '@angular/material';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { NguCarouselModule } from '@ngu/carousel';
@@ -55,6 +58,9 @@ import { WINDOW_PROVIDERS } from '../../helpers/window.helper';
     MatRippleModule,
     MatSlideToggleModule,
     MatSnackBarModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    MatSelectModule,
     FlexLayoutModule,
     NguCarouselModule,
     CommonDirectivesModule,

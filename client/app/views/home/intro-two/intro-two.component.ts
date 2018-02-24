@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { FormGroup, FormBuilder, Validators, FormControl } from '@angular/forms';
+import { MatDatepickerModule, MatInputModule, MatNativeDateModule, MatFormField, MatDatepicker } from '@angular/material';
 
 @Component({
   selector: 'app-intro-two',
@@ -6,6 +8,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./intro-two.component.scss']
 })
 export class IntroTwoComponent implements OnInit {
+
+  @ViewChild(MatDatepicker) picker: MatDatepicker<Date>;
+  
+  searchForm: FormGroup;
+  formControl: FormControl;
 
   constructor() { }
 
