@@ -37,11 +37,13 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { PortfolioCarouselComponent } from './portfolio-carousel/portfolio-carousel.component';
 import { TestimonialsCarouselComponent } from './testimonials-carousel/testimonials-carousel.component';
 import { ServicesCarouselComponent } from './services-carousel/services-carousel.component';
+import { LocationsCarouselComponent } from './locations-carousel/locations-carousel.component';
 import { DemoComponent } from './demo/demo.component';
 import { AllSectionsComponent } from './all-sections.component';
 
 import { WINDOW_PROVIDERS } from '../../helpers/window.helper';
 
+import { PricingsComponent1 } from './pricings.1/pricings1.component';
 
 @NgModule({
   imports: [
@@ -81,9 +83,11 @@ import { WINDOW_PROVIDERS } from '../../helpers/window.helper';
     TestimonialsComponent, 
     PortfolioCarouselComponent,  
     TestimonialsCarouselComponent, 
-    ServicesCarouselComponent, 
+    ServicesCarouselComponent,
+    LocationsCarouselComponent,
     DemoComponent,
-    AllSectionsComponent
+    AllSectionsComponent,
+    PricingsComponent1
   ],
   providers: [WINDOW_PROVIDERS]
 
